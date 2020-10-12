@@ -10,6 +10,12 @@ body {
 .navbar-logo{
     font-family: 'Montserrat', sans-serif;
 }
+
+.footer-style {
+    background-color: #080a5e;
+    height: 200px;
+  }
+
 @media (min-width: 769px) {
     .navbar-logo {
       padding-left: 70px;
@@ -54,6 +60,107 @@ header p {
          color: #ffffff;
          font-size: 20px;
  }}
+
+ @media (max-width: 768px) {
+    .navbar-logo {
+      color: #ffffff;
+      font-size: 20px;
+    }
+  
+    .carousel-size {
+      height: 600px;
+      width: 500px;
+    }
+  
+    .img-size {
+      height: 180px;
+      width: 290px;
+    }
+  
+    .experience-border {
+      border-bottom: 2px solid #ff16f1;
+      margin-top: 50px;
+      text-align: center;
+    }
+  
+    .experience-style {
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+  
+    .experience-title {
+      color: #ffffff;
+      background-color: #080a5e;
+      font-size: 28px;
+    }
+  
+    .experience-text {
+      color: #ff16f1;
+      font-size: 20px;
+      padding-bottom: 40px;
+    }
+  
+    .work-container {
+      padding-top: 60px;
+      padding-bottom: 50px;
+    }
+  
+    .work-title {
+      background-color: #ff16f1;
+      color: #ffffff;
+      font-size: 28px;
+    }
+  
+    .contact-title {
+      color: #ffffff;
+      background-color: #ff16f1;
+      font-size: 28px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    .contact-text {
+      color: #7209B7;
+      font-size: 18px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
+  
+    .footer-icons a {
+      color: #ffffff;
+      margin-right: 6px;
+      margin-left: 6px;
+      font-size: 30px;
+    }
+  
+    .footer-icons {
+      text-align: center;
+      display: block;
+    }
+  
+    footer h2 {
+      text-align: center;
+      display: block;
+      padding-bottom: 20px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .description-text{
      padding: 100px;
  }
@@ -86,9 +193,122 @@ header p {
   }
 
 .bg-work {
-    background-color: #F72585;
+    background-color: #4361EE;
   }
   
 .card-color {
     color: #080a5e;
   }
+  .btn-style {
+    background-color:#7209B7;
+    color: #ffffff;
+  }
+  .contact-title {
+    color: #ffffff;
+    background-color: #7209B7;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+
+@media (min-width: 769px) {
+    .navbar-logo {
+      padding-left: 100px;
+      color: #ffffff;
+      font-size: 30px;
+}
+  
+.navbar-text {
+      padding-right: 80px;
+}
+  
+.carousel-size {
+      height: 950px;
+      width: 1440px;
+      margin-top: -120px;
+}
+  
+header h4 {
+      font-size: 80px;
+}
+  
+header p {
+      font-size: 50px;
+      background-color: #7209B7;
+}
+  
+.img-size {
+      height: 270px;
+      width: 460px;
+}
+  
+.experience-style {
+      padding-bottom: 70px;
+}
+  
+.experience-title {
+      color: #ffffff;
+      background-color: #080a5e;
+      font-size: 50px;
+}
+  
+.contact-title {
+      color: #ffffff;
+      background-color: #7209B7;
+      margin-bottom: 80px;
+}
+  
+.experience-text {
+      color: #7209B7;
+      font-size: 30px;
+}
+  
+.work-container {
+      padding-top: 70px;
+      padding-bottom: 70px;
+}
+  
+.work-title {
+      background-color:#7209B7;
+      color: #ffffff;
+      font-size: 50px;
+}
+  
+.card-top {
+      padding-top: 30px;
+      padding-bottom: 30px;
+ }
+  
+.contact-title {
+      color: #ffffff;
+      background-color:#7209B7;
+      font-size: 50px;
+      margin-top: 50px;
+}
+  
+.contact-text {
+      color: #7209B7;
+      font-size: 30px;
+ }
+  
+.contact-button {
+      margin-bottom: 50px;
+      margin-top: 70px;
+}
+footer h2 {
+        padding-top: 35px;
+        display: inline-block;
+}
+.footer-icons a {
+      color: #ffffff;
+      font-size: 40px;
+    }
+  
+.footer-icons {
+      float: right;
+      padding-right: 100px;
+      padding-top: 15px;
+      display: inline-block;
+} 
+}
