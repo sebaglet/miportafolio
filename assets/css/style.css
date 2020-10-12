@@ -27,13 +27,6 @@ body {
     padding-right: 80px;
 }
 
-@media (max-width: 768px) {
-    .navbar-logo {
-        color: #ffffff;
-        font-size: 15px;
-        margin-left: 10px;
-}}
-
 .carousel-size {
     height: 950px;
     width: 1440px;
@@ -50,23 +43,24 @@ header p {
     background-color: #7209B7;
     font-family: 'Montserrat', sans-serif;
   }
-@media (max-width: 768px) {
-   header p{
+
+/*Inicio de media query para MOBILE */
+ @media (max-width: 768px) {    
+    .navbar-logo {
+        color: #ffffff;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    header h4{
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    header p{
         color: #ffffff;
         font-size: 28px;
-}}
-@media (max-width: 768px) {
-    header h4{
-         color: #ffffff;
-         font-size: 20px;
- }}
-
- @media (max-width: 768px) {
-    .navbar-logo {
-      color: #ffffff;
-      font-size: 20px;
     }
-  
+
     .carousel-size {
       height: 600px;
       width: 500px;
@@ -78,7 +72,7 @@ header p {
     }
   
     .experience-border {
-      border-bottom: 2px solid #ff16f1;
+      border-bottom: 2px solid  #7209B7;
       margin-top: 50px;
       text-align: center;
     }
@@ -93,9 +87,18 @@ header p {
       background-color: #080a5e;
       font-size: 28px;
     }
+
+    .experience-desc {
+        color: #ffffff;
+        background-color: #080a5e;
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 30px;
+      }
   
     .experience-text {
-      color: #ff16f1;
+      color:  #7209B7;
       font-size: 20px;
       padding-bottom: 40px;
     }
@@ -106,14 +109,14 @@ header p {
     }
   
     .work-title {
-      background-color: #ff16f1;
+      background-color: #7209B7;
       color: #ffffff;
-      font-size: 28px;
+      font-size: 20px;
     }
   
     .contact-title {
       color: #ffffff;
-      background-color: #ff16f1;
+      background-color: #7209B7;
       font-size: 28px;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -144,22 +147,7 @@ header p {
       padding-bottom: 20px;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Fin de media query para MOBILE */
 
  .description-text{
      padding: 100px;
@@ -172,20 +160,7 @@ header p {
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
   }
-.experience-desc {
-    color: #ffffff;
-    background-color: #080a5e;
-    font-size: 40px;
-    margin-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
-  }
 
-.work-title {
-    background-color: #7209B7;
-    color: #ffffff;
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-  }
 
 .card-top {
     padding-top: 30px;
@@ -211,7 +186,7 @@ header p {
     margin-bottom: 30px;
   }
 
-
+/*Inicio de media query para DESKTOP */
 @media (min-width: 769px) {
     .navbar-logo {
       padding-left: 100px;
@@ -224,25 +199,36 @@ header p {
 }
   
 .carousel-size {
-      height: 950px;
+      height: 820px;
       width: 1440px;
       margin-top: -120px;
 }
   
 header h4 {
-      font-size: 80px;
+      font-size: 40px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
 }
   
 header p {
       font-size: 50px;
       background-color: #7209B7;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
 }
   
 .img-size {
       height: 270px;
       width: 460px;
 }
-  
+.experience-desc{
+    margin-bottom: 50px;
+}
+
+.experience-logo {
+    margin-left: 100px;
+}
+
 .experience-style {
       padding-bottom: 70px;
 }
@@ -312,3 +298,4 @@ footer h2 {
       display: inline-block;
 } 
 }
+/*Fin de media query para DESKTOP */
