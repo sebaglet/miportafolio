@@ -7,6 +7,9 @@ body {
     background-color: #3A0CA3;
 }
 
+.navbar-logo{
+    font-family: 'Montserrat', sans-serif;
+}
 @media (min-width: 769px) {
     .navbar-logo {
       padding-left: 70px;
@@ -21,6 +24,33 @@ body {
 @media (max-width: 768px) {
     .navbar-logo {
         color: #ffffff;
-        font-size: 20px;
-        margin-left: 20px;
+        font-size: 15px;
+        margin-left: 10px;
 }}
+
+.carousel-size {
+    height: 950px;
+    width: 1440px;
+    margin-top: -120px;
+  }
+
+header h4 {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+header p {
+    font-size: 50px;
+    background-color: #7209B7;
+    font-family: 'Montserrat', sans-serif;
+  }
+@media (max-width: 768px) {
+   header p{
+        color: #ffffff;
+        font-size: 28px;
+}}
+@media (max-width: 768px) {
+    header h4{
+         color: #ffffff;
+         font-size: 20px;
+ }}
