@@ -1,0 +1,26 @@
+body {
+    font-family:'Ubuntu', sans-serif;
+    background-color: #ffffff;
+}
+  
+.bg-color {
+    background-color: #3A0CA3;
+}
+
+@media (min-width: 769px) {
+    .navbar-logo {
+      padding-left: 70px;
+      color: #ffffff;
+      font-size: 30px;
+}}
+  
+.navbar-text {
+    padding-right: 80px;
+}
+
+@media (max-width: 768px) {
+    .navbar-logo {
+        color: #ffffff;
+        font-size: 20px;
+        margin-left: 20px;
+}}
