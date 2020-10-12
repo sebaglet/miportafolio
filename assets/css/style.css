@@ -60,14 +60,35 @@ header p {
  .experience-bloc {
     padding-bottom: 70px;
   }
-
-  .experience-logo {
+.experience-logo {
     color: #7209B7;
     font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
   }
-  .experience-desc {
+.experience-desc {
     color: #ffffff;
     background-color: #080a5e;
     font-size: 40px;
     margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.work-title {
+    background-color: #7209B7;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.card-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+.bg-work {
+    background-color: #F72585;
+  }
+  
+.card-color {
+    color: #080a5e;
   }
